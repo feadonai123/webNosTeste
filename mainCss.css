@@ -1,0 +1,238 @@
+body{
+	height: 100%;
+	background-color: #E5E5E5;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	background-image: url("./img/fundo.png");
+	background-repeat: no-repeat;
+	background-position-x: 90%;
+    background-position-y: 25vh;
+}
+header{
+	overflow: hidden;
+}
+.block{
+	display: block;
+	background-color:#242020;
+	overflow: hidden;
+}
+.float_esq{
+	float:left;
+	padding-left: 5%;
+}
+.float_dir{
+	float:right;
+	padding-right: 5%;
+}
+.content{
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+.margin_left_right{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.paddin_top_botton{
+	padding-bottom: 32px;
+	padding-top: 32px;
+}
+/***********SUB HEADER****************/
+.sub_header{
+	display: block;
+	overflow: hidden;
+	background-color: #FFF100;
+}
+.sub_header p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 0;
+	cursor: default;
+}
+/***********BTO CESTA****************/
+.bto_cesta a{
+	display: block;
+	line-height: 42px;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	background-color: #FEFEFE;
+	border-radius: 35px;
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: #FEFEFE;
+ 	padding: 0px 20px;
+}
+.bto_cesta a img{
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.bto_cesta a:hover{
+	background-color: #242020;
+	color: white;
+}
+.bto_cesta a:hover img{
+	filter: invert(100%);
+}
+
+
+
+/***********DROPDOWN****************/
+.dropdown{
+	display: block;
+}
+.dropdown button{
+	background-color: transparent;
+	color: white;
+	line-height: 60px;
+	padding: 0 16px;
+	font-size: 16px;
+	border: none;
+	cursor: default;
+	outline: 0;
+	box-shadow: none;
+}
+.dropdown button img{
+	padding-left: 5px;
+}
+.itens_dropdown {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #242020;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.itens_dropdown ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.itens_dropdown ul a li{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.itens_dropdown ul a{
+	display: block;
+	overflow: hidden;
+	line-height: 32px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+.dropdown:hover .itens_dropdown{
+  	display: block;
+}
+.dropdown button:hover{
+  	background-color: #FFF100;
+  	color: black;
+}
+.dropdown button:hover img{
+	filter: invert(100%);
+}
+.itens_dropdown a:hover{
+	background-color: #FFF100;
+	color: black;
+}
+
+/***********LINK TEXTO****************/
+.link_texto{
+	display: block;
+}
+.link_texto a{
+	display: block;
+	font-size: 16px;
+	background-color:transparent;
+	text-decoration: none;
+	color: white;
+	line-height: 60px;
+	padding: 0 16px;
+	cursor: pointer;
+}
+.link_texto:hover{
+	background-color:#FFF100;
+	color: black;
+}
+.link_texto:hover a{
+	color: black;
+}
+
+
+/***********LISTA TEXTO****************/
+.lista_itens{
+	display: block;
+	padding-left: 5%;
+	padding-top: 42px;
+	cursor: default;
+}
+.lista_itens #titulo{
+	font-size: 36px;
+	margin: 0;
+	padding-bottom: 42px;
+}
+.lista_itens ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+.lista_itens ul li{
+	overflow: hidden;
+}
+.lista_itens ul li h1{
+	color: black;
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #FFF100;
+	border-radius: 50%;
+	font-size: 28px;
+	float:left;
+}
+.lista_itens ul li h2{
+	line-height: 24px;
+	padding-left: 32px;
+	font-size: 16px;
+	color: black;
+	float: left;
+}
+/***********BOTAO MAIN****************/
+.bto_main{
+	padding-top: 40px;
+	padding-left: 5%;
+	display:block;
+}
+.bto_main button{
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	outline: 0;
+	box-shadow: none;
+	font-size: 16px;
+
+	width: 328px;
+	height: 40px;
+}
+.bto_main #doacao{
+	background-color: black;
+	color: white;
+}
+.bto_main #instituicoes{
+	margin-top: 21px;
+	background-color: #E5E5E5;
+	color: black;
+}
+.bto_main #doacao:hover{
+	background-color: #FFF100;
+	color: black;
+}
+.bto_main #instituicoes:hover{
+	background-color: #FFF100;
+	color: black;
+}
+
